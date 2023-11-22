@@ -2,7 +2,7 @@
 
 set -eu
 
-BRANCH=${1:-main}
+BRANCH=${1:-master}
 git fetch origin $BRANCH
 git switch $BRANCH
 git pull origin $BRANCH
